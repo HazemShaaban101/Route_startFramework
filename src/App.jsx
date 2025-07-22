@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Error404 from "./components/Error404/Error404";
 
 function App() {
 	addEventListener("scroll", () => {
@@ -30,6 +31,7 @@ function App() {
 							{ path: "contact", element: <Contact /> },
 							{ path: "about", element: <About /> },
 							{ path: "portfolio", element: <Portfolio /> },
+							{ path: "*", element: <Error404 /> },
 						],
 					},
 				])}></RouterProvider>

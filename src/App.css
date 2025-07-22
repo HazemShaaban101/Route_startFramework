@@ -113,3 +113,7 @@ div.input:has(input:not(:placeholder-shown)) {
 		top: -40% !important;
 	}
 }
+
+.vh-70 {
+	height: 58.5vh;
+}

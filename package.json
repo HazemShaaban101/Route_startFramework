@@ -3,7 +3,7 @@
 	"private": false,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://hazemshaaban101.github.io/route-startframework",
+	"homepage": "https://hazemshaaban101.github.io/route-startframework/",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
